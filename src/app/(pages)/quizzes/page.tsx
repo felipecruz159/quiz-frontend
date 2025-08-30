@@ -86,7 +86,7 @@ export default function Quizzes() {
                       </Link>
                       <button
                         onClick={() => handleDeleteQuiz(quiz.id)}
-                        className="p-2 text-red-600 hover:text-red-800 hover:bg-red-50 rounded-md transition-colors"
+                        className="p-2 text-red-600 hover:text-red-800 hover:bg-red-50 rounded-md transition-colors cursor-pointer"
                         title="Delete Quiz"
                       >
                         <MdDelete className="text-xl" />

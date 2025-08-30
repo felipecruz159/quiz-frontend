@@ -62,7 +62,7 @@ export default function QuizPage() {
 
       <h1 className="text-3xl font-bold mb-4">{quiz.title}</h1>
       <p className="text-gray-500 mb-6">
-        Criado em: {new Date(quiz.createdAt).toLocaleString()}
+        Created at: {new Date(quiz.createdAt).toLocaleString()}
       </p>
 
       {quiz.questions.map((q) => (
